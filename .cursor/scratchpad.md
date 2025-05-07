@@ -141,4 +141,8 @@ CardWizard 是一款集"刷哪张卡最划算 + 预算追踪 + 积分规划"功�
 已完成 Sprint 0 的项目初始化相关任务：初始化项目目录结构和基本配置。已创建 Git 仓库，添加了 README.md，配置了 pnpm workspace 的基本结构，并成功迁移了项目文档到新的目录结构中。
 
 ## 执行者反馈或请求帮助
-Sprint 0 的初始化部分已全部完成。项目基础结构已经搭建好，下一步需要继续实现 Next.js 前端应用和 NestJS 后端应用的基础架构。 
+Sprint 0 的初始化部分已全部完成。项目基础结构已经搭建好，下一步需要继续实现 Next.js 前端应用和 NestJS 后端应用的基础架构。
+Sprint 5 的执行者反馈：
+- 添加远程仓库 origin 成功 (URL: https://github.com/bothermeQAQ/CardWizard.git)
+- 切换/重命名分支 main 成功
+- 执行 `git push -u origin main` 成功，主分支已与远程同步 

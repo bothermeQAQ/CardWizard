@@ -131,8 +131,8 @@ CardWizard 是一款集"刷哪张卡最划算 + 预算追踪 + 积分规划"功�
 - [x] [/] 迁移项目文档和目录结构
 - [x] [/apps/web] 搭建基础 Next.js 应用架构
 - [x] [/apps/api] 搭建基础 NestJS 应用架构
-- [ ] [/apps/api/src/modules/plaid] 实现 Plaid API 服务
-- [ ] [/apps/web/app/connect] 实现 Plaid Link 前端集成
+- [x] [/apps/api/src/modules/plaid] 实现 Plaid API 服务
+- [x] [/apps/web/app/connect] 实现 Plaid Link 前端集成
 - [ ] [/packages/database] 设计并实现数据库模型
 - [ ] [/apps/api/src/modules/cards] 实现信用卡规则管理 API
 - [ ] [/apps/web/app/dashboard] 开发用户仪表盘初始版本
@@ -140,8 +140,17 @@ CardWizard 是一款集"刷哪张卡最划算 + 预算追踪 + 积分规划"功�
 ## 当前状态/进度跟踪
 已完成 Sprint 0 的项目初始化相关任务：初始化项目目录结构和基本配置。已创建 Git 仓库，添加了 README.md，配置了 pnpm workspace 的基本结构，并成功迁移了项目文档到新的目录结构中。成功搭建了 Next.js 前端应用和 NestJS 后端应用的基础架构，并完成了本地自检测试。
 
+已完成 Sprint 1 的 Plaid 集成任务：在后端实现了 Plaid API 服务，包括创建 link token 和交换 public token 的功能；在前端实现了 Plaid Link 集成，使用户能够连接银行账户。这些功能将为后续的交易数据获取提供基础。
+
 ## 执行者反馈或请求帮助
-Sprint 0 的初始化部分已全部完成。项目基础结构已经搭建好，Next.js 前端应用和 NestJS 后端应用的基础架构已成功搭建并完成本地自检测试。下一步需要继续实现 Plaid API 服务和前端集成。
+Sprint 0 的初始化部分已全部完成。项目基础结构已经搭建好，Next.js 前端应用和 NestJS 后端应用的基础架构已成功搭建并完成本地自检测试。
+
+Sprint 1 的 Plaid 集成已完成：
+- 后端 Plaid API 服务实现：创建了 PlaidModule, PlaidService 和 PlaidController，封装了 Plaid SDK 的功能。
+- 前端 Plaid Link 集成：创建了 connect 页面和相应的 API 路由处理程序，实现了银行账户连接流程。
+
+下一步任务将是设计和实现数据库模型，以及信用卡规则管理 API。
+
 Sprint 5 的执行者反馈：
 - 添加远程仓库 origin 成功 (URL: https://github.com/bothermeQAQ/CardWizard.git)
 - 切换/重命名分支 main 成功

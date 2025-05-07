@@ -25,5 +25,9 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "plaid": "^33.0.0",
+    "react-plaid-link": "^4.0.1"
+  }
 }

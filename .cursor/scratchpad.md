@@ -122,6 +122,7 @@ CardWizard 是一款集"刷哪张卡最划算 + 预算追踪 + 积分规划"功�
 ## 项目状态看板
 - [x] [/] 初始化 Git 仓库和 README.md
 - [x] [/] 配置 pnpm workspace 根目录结构
+- [x] [/] 迁移项目文档和目录结构
 - [ ] [/apps/web] 搭建基础 Next.js 应用架构
 - [ ] [/apps/api] 搭建基础 NestJS 应用架构
 - [ ] [/apps/api/src/modules/plaid] 实现 Plaid API 服务
@@ -131,7 +132,7 @@ CardWizard 是一款集"刷哪张卡最划算 + 预算追踪 + 积分规划"功�
 - [ ] [/apps/web/app/dashboard] 开发用户仪表盘初始版本
 
 ## 当前状态/进度跟踪
-已完成 Sprint 0 的第一个任务：初始化项目目录结构和基本配置。已创建 Git 仓库，添加了 README.md，并配置了 pnpm workspace 的基本结构，包括根目录的 package.json 和 pnpm-workspace.yaml 文件，以及 apps 和 packages 目录。
+已完成 Sprint 0 的项目初始化相关任务：初始化项目目录结构和基本配置。已创建 Git 仓库，添加了 README.md，配置了 pnpm workspace 的基本结构，并成功迁移了项目文档到新的目录结构中。
 
 ## 执行者反馈或请求帮助
-Sprint 0 的第一部分已完成。项目基础结构已经搭建好，下一步需要继续实现 Next.js 前端应用和 NestJS 后端应用的基础架构。 
+Sprint 0 的初始化部分已全部完成。项目基础结构已经搭建好，下一步需要继续实现 Next.js 前端应用和 NestJS 后端应用的基础架构。 
